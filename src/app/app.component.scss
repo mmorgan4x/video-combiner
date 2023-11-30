@@ -3,7 +3,31 @@ code {
     color: #fff;
     display: block;
     padding: 1rem;
-    max-height: 500px;
+    height: 500px;
     overflow-y: auto;
     white-space: pre-line;
+}
+.overlay {
+    position: fixed;
+    background: rgba(255, 255, 255, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+    span {
+        font-size: 3rem;
+    }
+}
+
+input {
+    font-family: monospace;
+}
+
+video {
+    width: 100%;
 }
